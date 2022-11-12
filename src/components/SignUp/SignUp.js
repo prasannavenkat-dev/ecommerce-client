@@ -30,7 +30,7 @@ const SignUp = () => {
 
   async function signUpUser(){
    
-let res1 = await axios.post("http://localhost:4000/signup",{email,userName,password})
+let res1 = await axios.post("https://eccomerce-server12.herokuapp.com/signup",{email,userName,password})
 alert(res1.data.message)
   }
 

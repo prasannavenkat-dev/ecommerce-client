@@ -38,7 +38,7 @@ else{
 
 }
    
-let res1 = await axios.post("http://localhost:4000/signin",{...obj})
+let res1 = await axios.post("https://eccomerce-server12.herokuapp.com/signin",{...obj})
 
 alert(res1.data.message)
 if(res1.status==200){

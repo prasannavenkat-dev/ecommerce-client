@@ -16,7 +16,7 @@ const ForgotPassword = () => {
   async function requestPassword(){
 console.log(email,"Sda");
    
-let res1 = await axios.post("http://localhost:4000/forgotpassword",{email})
+let res1 = await axios.post("https://eccomerce-server12.herokuapp.com/forgotpassword",{email})
 alert(res1.data.message)
 
 
