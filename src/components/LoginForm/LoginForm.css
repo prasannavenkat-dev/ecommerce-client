@@ -1,0 +1,120 @@
+.login_form_container {
+  height: 80vh;
+  max-height: auto;
+  width: 25vw;
+  background-color: rgba(255, 255, 255, 0.722);
+  backdrop-filter: blur(2px);
+  margin: 0 5%;
+  border-radius: 35px;
+  padding: 60px 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.flex_col_between {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ecom_logo {
+  font-weight: 900;
+  font-size: 24px;
+  color: #29282a;
+}
+
+.header_text_container {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.header_text {
+  font-weight: 900;
+  font-size: 58px;
+  color: #29282a;
+}
+
+.sign_in_google_container {
+  margin-bottom: 38px;
+}
+
+.input_field_container {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1301px) {
+  .login_form_container {
+    width: 30vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .login_form_container {
+    width: 75vw;
+    height: 70vh;
+  }
+
+  .header_text {
+    font-size: 48px;
+  }
+
+  .header_text_container,
+  .sign_in_google_container {
+    margin-bottom: 20px;
+  }
+
+  .input_field_container {
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 740px) and (min-width: 650px) {
+  .login_form_container {
+    width: 60vw;
+    height: 70vh;
+  }
+  .header_text_container,
+  .sign_in_google_container {
+    margin-bottom: 20px;
+  }
+
+  .input_field_container {
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 740px) {
+  .login_form_container {
+    width: 50vw;
+    height: 70vh;
+  }
+  .header_text_container,
+  .sign_in_google_container {
+    margin-bottom: 20px;
+  }
+  .input_field_container {
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 901px) {
+  .login_form_container {
+    width: 40vw;
+  }
+  .header_text_container,
+  .sign_in_google_container {
+    margin-bottom: 20px;
+  }
+  .input_field_container {
+    margin-bottom: 12px;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1101px) {
+  .login_form_container {
+    width: 35vw;
+  }
+}

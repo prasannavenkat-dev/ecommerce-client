@@ -1,0 +1,24 @@
+.login_page_container {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+@media only screen and (max-width: 700px)   {
+
+  .login_page_container {
+    justify-content: center ;
+  }
+
+
+}
+
+
+
+
+
