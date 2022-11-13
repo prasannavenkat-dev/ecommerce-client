@@ -35,7 +35,7 @@ useEffect(() => {
 <Route path="/" element= {isLoggedIn ?<Navigate to="/home" replace /> :<Navigate to="/signin" replace />} />
 
 
-        <Route path="signin" element={isLoggedIn ?<Navigate to="/home" replace /> :<LoginPage setIsLoggedIn={setIsLoggedIn} />} />
+        <Route path="signin" element={isLoggedIn ? <Navigate to="/home" replace /> :<LoginPage setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="home" element={<ProtectedRoute isLoggedIn={isLoggedIn}> <HomePage setIsLoggedIn={setIsLoggedIn}/> </ProtectedRoute> } />
         <Route path="*" element={isLoggedIn ?<Navigate to="/home" replace /> :<Navigate to="/signin" replace />} />
 
